@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* fontes
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+font-family: "Bebas Neue", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+font-family: "Fira Sans", sans-serif;
+Amarelo (Hex: #FFD700)
+Preto (Hex: #000000)
+Cinza (Hex: #A9A9A9)
+Verde (Hex: #00FF00)
+Vermelho (Hex: #FF0000)
+Branco (Hex: #FFFFFF)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --cor0: rgba(69, 179, 243, 0.226); 
+    --cor1: rgb(0, 144, 155);
+    --cor2: #FFD700 ;
+    --cor3: #A9A9A9;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+}
+
+body {
+    background-color: 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+img {
+    margin: auto;
+    display: block;
+}
+img.miura {
+    padding-bottom: 17px;
+}
+h1 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor2);
+}
+
+h2 {
+    font-family: var(--fonte-destaque);
+}
+
+p {
+    font-family: var(--fonte-padrao);
+} 
+
+main p {
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+
+}
